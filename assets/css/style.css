@@ -1,0 +1,468 @@
+/* Html */
+html, body {
+    scroll-behavior: smooth;
+    background-color: #fff;
+    max-width: 100%;
+    overflow-x: hidden;
+    padding: 0;
+    margin: 0;
+}
+/* <- Html -> */
+
+/* Navbar */
+.navbar {
+    padding: 20px;
+    position: relative;
+    z-index: 1;
+}
+
+.nav-link {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 15px;
+    color: #212a54 !important;
+}
+
+.nav-link:hover {
+    color: #ffffff !important;
+    transition: all 0.5s;
+}
+
+.active {
+    text-align: center;
+    background-color: #212a54;
+    width: 100px;
+    color: #ffffff !important;
+    border-radius: 10px 10px 10px 10px;
+}
+
+.logo-km {
+    width: 200px;
+    height: 60px;
+}
+
+.logo-km-footer {
+    margin-left: 50px;
+    margin-top: 50px;
+    width: 200px;
+    height: 60px;
+}
+/* <- Navbar -> */
+
+/* Header */
+.header {
+    margin-top: 100px;
+}
+
+.header h3 {
+    margin-top: 50px;
+    font-size: 36px;
+    color: #212a54 !important;
+}
+
+.header p {
+    color: #555;
+}
+
+.header a:hover {
+    color: #fff !important;
+    background-image: linear-gradient(to top, rgba(33, 42, 84), rgba(92, 192, 200));
+}
+
+.btn-header {
+    border: none;
+    text-transform: uppercase;
+    padding: 10px;
+    width: 120px;
+    border-radius: 20px 20px 20px 20px;
+    background-image: linear-gradient(to top, rgba(92, 192, 241), rgba(92, 192, 200));
+}
+
+.gambar-header {
+    margin-left: 50px;
+}
+/* <- Header -> */
+
+/* Trends */
+.trends {
+    margin-top: 20%;
+    padding: auto;
+}
+
+.trends2 {
+    margin-top: 20px;
+    padding: auto;
+}
+
+.trends h3 {
+    margin-top: -20px;
+    margin-bottom: 50px;
+    color: #212a54 !important;
+}
+/* <- Trends -> */
+
+/* Search */
+.search {
+    margin-top: 20%;
+    margin-bottom: 20%;
+}
+
+.search h3 { 
+    font-size: 30px;
+    margin-bottom: 20px;
+    color: #212a54 !important;
+}
+/* <- Search -> */
+
+/* Fitur */
+.fitur {
+    margin-top: 15%;
+    font-weight: normal;
+}
+
+.fitur h3 {
+    font-size: 30px;
+    color: #212a54 !important;
+    font-weight: bold;
+    border-bottom: 5px solid #5cc0f1;
+    width: 150px;
+}
+
+.fitur p {
+    margin-top: 20px;
+}
+/* <- Fitur -> */
+
+
+/* Map */
+.map {
+    margin-top: 15%;
+    margin-bottom: 20%;
+}
+
+.map h3 {
+    font-size: 30px;
+    color: #212a54 !important;
+    font-weight: bold;
+    border-bottom: 5px solid #5cc0f1;
+    width: 220px;
+}
+
+#map {
+    margin-top: 20px;
+    width: 100%;
+    height: 500px;
+}
+/* <- Akhir Map -> */
+
+/* Footer */
+.footer {
+    margin-top: 25%;
+}
+
+.footer h3 { 
+    font-size: 22px;
+    color: #fff !important;
+}
+
+.footer p {
+    color: #fff !important;
+    font-size: 16px;
+}
+
+.footer a {
+    color: #fff !important;
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.footer a:hover {
+    color: #212a54 !important;
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+}
+/* <- Footer -> */
+
+/* SVG Background */
+#atas {
+    right: 0;
+    bottom: 0;
+    position: absolute;
+}
+
+#atas2 {
+    right: 0;
+    top: 0;
+    position: absolute;
+}
+
+#kiri {
+    top: 25%;
+    left: 0;
+    position: absolute;
+}
+
+#kanan1 {
+    top: 120%;
+    right: 0;
+    position: absolute;
+}
+
+#kiri2 {
+    top: 160%;
+    left: 0;
+    position: absolute;
+}
+
+#kanan2 {
+    top: 300%;
+    right: 0;
+    position: absolute;
+}
+
+#kiri3 {
+    top: 360%;
+    left: 0;
+    position: absolute;
+}
+
+#bawah {
+    position: absolute;
+}
+
+#bawah2 {
+    position: absolute;
+}
+/* <- SVG Background -> */
+
+/* Lainnya */
+.biru-tua {
+    color: #212a54 !important;
+}
+
+#biru-muda {
+    color: #5cc0f1;
+}
+/* <- lainnya -> */
+
+/** Selector **/
+::-webkit-scrollbar {
+    width:5px;
+    height:10px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #5cc0f1;
+}
+
+::selection {
+    background:#212a54;
+    color:#fff;
+}
+
+::-moz-selection{
+    background:#212a54;
+    color:#fff;
+}
+/* <- Selector -> */
+
+/* Small Devices */
+@media (max-width: 575px) { 
+    #atas {
+        right: 0;
+        top: 0;
+        left: 20%;
+        position: absolute;
+    }
+    #atas2 {
+        right: 0;
+        top: 0;
+        left: 20%;
+        position: absolute;
+    }
+    #kiri {
+        top: 20%;
+        left: 0;
+        position: absolute;
+    }
+    #kiri2 {
+        top: 150%;
+        left: 0;
+        position: absolute;
+    }
+    .header {
+        margin: 0;
+    }
+    .gambar-header {
+        margin: 0;
+    }
+    .fitur {
+        margin-top: 100px;
+    }
+    .footer {
+        padding-left: 50px;
+        background-color: #5ab9ef;
+    }
+    .footer h3 { 
+        font-size: 22px;
+        color: #fff !important;
+    }
+    .footer p {
+        color: #fff !important;
+        font-size: 16px;
+    }
+    .footer a {
+        color: #fff !important;
+        margin: 0;
+        padding: 0;
+        font-size: 18px;
+        font-weight: 400;
+    }
+    .logo-km-footer {
+        margin-left: -5px;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        width: 200px;
+        height: 60px;
+    }
+}
+/* <- Small Devices -> */
+
+/* Medium Devices */
+@media (max-width: 768px) { 
+    .navbar-expand-lg {
+        background-color: #5cc0f1;
+    }
+    #atas {
+        right: 0;
+        top: 0;
+        left: 20%;
+        position: absolute;
+    }
+    #kiri {
+        top: 20%;
+        left: 0;
+        position: absolute;
+    }
+    #kiri2 {
+        top: 150%;
+        left: 0;
+        position: absolute;
+    }
+    .header {
+        margin: 0;
+    }
+    .gambar-header {
+        margin: 0;
+    }
+    .footer {
+        padding-left: 50px;
+        background-color: #5ab9ef;
+    }
+    .footer h3 { 
+        font-size: 22px;
+        color: #fff !important;
+    }
+    .footer p {
+        color: #fff !important;
+        font-size: 16px;
+    }
+    .footer a {
+        color: #fff !important;
+        margin: 0;
+        padding: 0;
+        font-size: 18px;
+        font-weight: 400;
+    }
+    .logo-km-footer {
+        margin-left: -5px;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        width: 200px;
+        height: 60px;
+    }
+}
+/* <- Medium Devices -> */
+
+/* Tablet Devices */
+@media (max-width: 992px) { 
+    .navbar-expand-lg {
+        background-color: #5cc0f1;
+    }
+    .nav-link:hover {
+        color: #fff!important;
+        transition: all 0.5s;
+    }
+    #atas {
+        right: 0;
+        top: 0;
+        left: 20%;
+        position: absolute;
+    }
+    #kiri {
+        top: 20%;
+        left: 0;
+        position: absolute;
+    }
+    #kiri2 {
+        top: 150%;
+        left: 0;
+        position: absolute;
+    }
+    .trends {
+        margin-top: 30%;
+    }
+    .search {
+        margin-top: 55%;
+    }
+    .header {
+        margin: 0;
+    }
+    .gambar-header {
+        margin: 0;
+    }
+    .footer {
+        padding-left: 50px;
+        background-color: #5ab9ef;
+    }
+    .footer h3 { 
+        font-size: 22px;
+        color: #fff !important;
+    }
+    .footer p {
+        color: #fff !important;
+        font-size: 16px;
+    }
+    .footer a {
+        color: #fff !important;
+        margin: 0;
+        padding: 0;
+        font-size: 18px;
+        font-weight: 400;
+    }
+    .logo-km-footer {
+        margin-left: -5px;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        width: 200px;
+        height: 60px;
+    }
+ }
+/* <- Tablet Devices -> */
+
+/* Desktop Devices */
+@media (max-width: 1000px) { 
+    .navbar-expand-lg {
+        background-color: #5cc0f1;
+    }
+    .header {
+        margin: 0;
+    }
+    .gambar-header {
+        margin: 0;
+    }
+}
+/* <- Desktop Devices -> */

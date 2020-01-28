@@ -1,0 +1,202 @@
+/* Html */
+html, body {
+    scroll-behavior: smooth;
+    background-color: #fff;
+    max-width: 100%;
+    overflow-x: hidden;
+    padding: 0;
+    margin: 0;
+}
+/* <- Html -> */
+
+/* Header Amikom */
+.header-amikom {
+    margin-top: 100px;
+}
+
+.header-amikom h3 {
+    margin-top: 50px;
+    font-size: 36px;
+    font-weight: bold;
+    color: #212a54 !important;
+}
+
+.header-amikom p {
+    color: #555;
+}
+
+.header-amikom a:hover {
+    color: #fff !important;
+    background-image: linear-gradient(to top, rgba(33, 42, 84), rgba(92, 192, 200));
+}
+/* <- Akhir Header */
+
+/* Akademik */
+.akademik {
+    margin-top: 10%;
+    font-weight: normal;
+}
+
+.akademik h3 {
+    font-size: 30px;
+    color: #212a54 !important;
+    font-weight: bold;
+    border-bottom: 5px solid #5cc0f1;
+    width: 150px;
+}
+
+.akademik p {
+    margin-top: 20px;
+}
+/* <- Akademik -> */
+
+/* Fasilitas */
+.fasilitas {
+    margin-top: 10%;
+    font-weight: normal;
+}
+
+.fasilitas h3 {
+    font-size: 30px;
+    color: #212a54 !important;
+    font-weight: bold;
+    border-bottom: 5px solid #5cc0f1;
+    width: 115px;
+}
+
+.fasilitas p {
+    margin-top: 20px;
+}
+/* <- AKhir Fasilitas -> */
+
+/* Info */
+.info {
+    margin-top: 10%;
+    font-weight: normal;
+}
+
+.info h3 {
+    font-size: 30px;
+    color: #212a54 !important;
+    font-weight: bold;
+    border-bottom: 5px solid #5cc0f1;
+    width: 65px;
+}
+
+.info p {
+    margin-top: 20px;
+}
+/* <- Akhir Info -> */
+
+/* SVG Background */
+#atas2 {
+    right: 0;
+    top: 0;
+    position: absolute;
+}
+
+#kiri {
+    top: 25%;
+    left: 0;
+    position: absolute;
+}
+
+#kanan2 {
+    top: 300%;
+    right: 0;
+    position: absolute;
+}
+
+#bawah2 {
+    position: absolute;
+}
+/* <- SVG Background -> */
+
+/* Small Devices */
+@media (max-width: 575px) { 
+    #atas2 {
+        right: 0;
+        top: 12%;
+        left: 0;
+        position: absolute;
+    }
+    #kiri {
+        top: 40%;
+        left: 0;
+        position: absolute;
+    }
+    .akademik {
+        margin-top: 100px;
+    }
+    .header-amikom {
+        margin: 0;
+    }
+    .gambar-header-amikom {
+        margin: 0;
+    }
+}
+/* <- Small Devices -> */
+
+/* Medium Devices */
+@media (max-width: 768px) { 
+    #atas2 {
+        right: 0;
+        top: 12%;
+        left: 0;
+        position: absolute;
+    }
+    #kiri {
+        top: 40%;
+        left: 0;
+        position: absolute;
+    }
+    .akademik {
+        margin-top: 100px;
+    }
+    .header-amikom {
+        margin: 0;
+    }
+    .gambar-header-amikom {
+        margin: 0;
+    }
+}
+/* <- Medium Devices -> */
+
+/* Tablet Devices */
+@media (max-width: 992px) { 
+    #atas2 {
+        right: 0;
+        top: 12%;
+        left: 0;
+        position: absolute;
+    }
+    #kiri {
+        top: 40%;
+        left: 0;
+        position: absolute;
+    }
+    .akademik {
+        margin-top: 100px;
+    }
+    .header-amikom {
+        margin: 0;
+    }
+    .gambar-header-amikom {
+        margin: 0;
+    }
+}
+/* <- Tablet Devices -> */
+
+/* Desktop Devices */
+@media (max-width: 1000px) { 
+    .header-amikom {
+        margin: 0;
+    }
+    .gambar-header-amikom {
+        margin: 0;
+    }
+    .akademik {
+        margin-top: 100px;
+    }
+}
+/* <- Desktop Devices -> */
